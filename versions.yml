@@ -1,0 +1,5 @@
+# renovate: datasource=custom.minecraft-release
+minecraft_version: "1.21.6"
+
+# renovate: datasource=custom.minecraft-snapshot
+minecraft_snapshot: "25w32a"
