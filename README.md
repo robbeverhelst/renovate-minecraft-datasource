@@ -1,14 +1,18 @@
-# Renovate Minecraft Datasource
+# 🎮 Renovate Minecraft Datasource
+
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg) ![Renovate](https://img.shields.io/badge/Renovate-enabled-brightgreen.svg)
 
 Custom Renovate datasource for tracking Minecraft Java Edition versions.
 
-## Setup
+## 🚀 Setup
 
-**Option 1:** Copy [`renovate.json`](./renovate.json) to your repository
+1. **Enable Renovate** for your repository: [Getting Started Guide](https://docs.renovatebot.com/getting-started/installing-onboarding/)
 
-**Option 2:** Add the `customManagers` and `customDatasources` from [`renovate.json`](./renovate.json) to your existing renovate.json
+2. **Add configuration:**
+   - **Option A:** Copy [`renovate.json`](./renovate.json) to your repository
+   - **Option B:** Add the `customManagers` and `customDatasources` from [`renovate.json`](./renovate.json) to your existing renovate.json
 
-Then add the renovate comment to any file where you want to track Minecraft versions
+3. Add the renovate comment to any file where you want to track Minecraft versions
 
 ### Examples
 
@@ -34,7 +38,7 @@ Track in Dockerfile:
 ENV MINECRAFT_VERSION=1.21.8
 ```
 
-## Data Source
+## 📡 Data Source
 
 - **API**: `https://launchermeta.mojang.com/mc/game/version_manifest_v2.json`
 - **Release datasource**: `custom.minecraft-release`
