@@ -2,4 +2,4 @@
 minecraft_version: "26.3"
 
 # renovate: datasource=custom.minecraft-snapshot
-minecraft_snapshot: "26.4-snapshot-4"
+minecraft_snapshot: "26.4-snapshot-5"
