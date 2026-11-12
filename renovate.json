@@ -46,5 +46,9 @@
         "{\"releases\": $map($filter(versions, function($v) { $v.type = \"snapshot\"}), function($v) { {\"version\": $v.id, \"releaseTimestamp\": $v.releaseTime} }), \"sourceUrl\": \"https://minecraft.net/snapshots\", \"homepage\": \"https://minecraft.net\"}"
       ]
     }
-  }
+  },
+  "schedule": [
+    "after 1am and before 7am"
+  ],
+  "timezone": "Europe/Brussels"
 }
