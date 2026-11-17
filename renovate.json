@@ -3,6 +3,8 @@
   "extends": [
     "config:recommended"
   ],
+  "osvVulnerabilityAlerts": true,
+  "lockFileMaintenance": { "enabled": true },
   "customManagers": [
     {
       "customType": "regex",
